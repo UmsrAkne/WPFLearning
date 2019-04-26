@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:WPFLearningProject.Views"
         mc:Ignorable="d"
         Title="MainView" Height="300" Width="300">
-    <Grid>
-        
-    </Grid>
+    <StackPanel>
+        <TextBox Text="{Binding InputSring}" />
+        <TextBlock Text="{Binding UpperString}" />
+        <Button Content="Click me." />
+    </StackPanel>
 </Window>
